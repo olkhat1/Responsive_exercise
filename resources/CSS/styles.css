@@ -21,8 +21,13 @@ header {
     
 }
 
+h2 {
+    color: #FFFAB7;
+    font-family: 'Lobster';
+    font-size: 1.5rem;
+}
+
 h1 {
-    color: #ffffff;
     font-family: 'Pacifico';
     font-size: 2rem;
     color: #FFFAB7;
@@ -36,7 +41,7 @@ h1 {
 
 .navcontainer {
     display: flex;
-    background-color: #074173;
+    background-color: rgba(2.7%, 25.5%, 45.1%, 0.5);
     padding: 1rem;
     border-bottom: 1px solid #FFFAB7;
 }
@@ -65,8 +70,6 @@ nav .navigation {
     list-style-type: none;
     gap: 2rem;
     margin-right: 1rem;
-    text-decoration: underline;
-    text-underline-offset: 0.5rem;
 
 }
 
@@ -87,7 +90,8 @@ main {
     align-items: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    background-color: rgba(7.5%, 36.5%, 40%, 0.3)
+    background-color: rgba(7.5%, 36.5%, 40%, 0.3);
+    border-bottom: 1px solid #FFFAB7;
    
 }
 
@@ -97,29 +101,68 @@ main {
     align-items: center;
     font-family: 'dancing script';
     font-size: 2.0rem;
-    color: #FFFAB7;
-    width: 50%;
+    color: #ffffff;
+    width: 70%;
     text-align: center;
+    line-height: 3rem;
 
 }
+
+/** What We Do **/
+
 
 #whatwedo {
-    /* Add styles for the what we do section */
+background-color: rgba(42.4%, 1.2%, 27.1%, 0.3);
 }
+
 
 .maincontainer {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+
 }
 
-.textcontainer {
-    flex: 1;
-    padding: 10px;
+.maincontainer p {
+    font-family: 'Dancing Script';
+    font-size: 1.5rem;
+    color: #ffffff;
+
+}
+
+.meditationtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    padding: 2rem;
+    line-height: 3rem;
+}
+
+
+.mainimgcontainer {
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   gap: 2rem;
+   
 }
 
 .imgcontainer {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #FFFAB7;
+
+}
+
+.imgcontainer img {
     flex: 1;
-    padding: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 #quotes {
