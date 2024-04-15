@@ -7,8 +7,9 @@
 html {
 
     background-image: url(/resources/IMG/photo-1528715471579-d1bcf0ba5e83.avif);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     width: 100%;
+    height: 100%;
     font-size: 18px;
 }
 
@@ -88,8 +89,8 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     background-color: rgba(7.5%, 36.5%, 40%, 0.3);
     border-bottom: 1px solid #FFFAB7;
    
@@ -100,7 +101,7 @@ main {
     justify-content: center;
     align-items: center;
     font-family: 'dancing script';
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     color: #ffffff;
     width: 70%;
     text-align: center;
