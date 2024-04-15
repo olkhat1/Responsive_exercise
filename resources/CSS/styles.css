@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+}
+
+header {
+    
+}
+
+nav {
+    /* Add your navigation styles here */
+}
+
+main {
+
+}
+
+#meditationclub {
+    /* Add styles for the meditation club section */
+}
+
+.clubinformation {
+    /* Add styles for the club information */
+}
+
+#whatwedo {
+    /* Add styles for the what we do section */
+}
+
+.maincontainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.textcontainer {
+    flex: 1;
+    padding: 10px;
+}
+
+.imgcontainer {
+    flex: 1;
+    padding: 10px;
+}
+
+#quotes {
+    /* Add styles for the quotes section */
+}
+
+.textcontainer .text {
+    /* Add styles for the quote text */
+}
+
+#signup {
+    /* Add styles for the sign up section */
+}
+
+.maininfo {
+    /* Add styles for the main information */
+}
+
+.signup {
+    /* Add styles for the sign up form */
+}
+
+footer {
+   
+}
+
+.mainfooter {
+    /* Add styles for the main footer */
+}
+
+.content {
+    /* Add styles for the footer content */
+}
+
+.footertext {
+    /* Add styles for the footer text */
+}
