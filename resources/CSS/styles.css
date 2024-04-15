@@ -38,6 +38,7 @@ h1 {
     display: flex;
     background-color: #074173;
     padding: 1rem;
+    border-bottom: 1px solid #FFFAB7;
 }
 
 nav .navigation {
@@ -81,11 +82,25 @@ main {
 }
 
 #meditationclub {
-    /* Add styles for the meditation club section */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: rgba(7.5%, 36.5%, 40%, 0.3)
+   
 }
 
 .clubinformation {
-    /* Add styles for the club information */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'dancing script';
+    font-size: 2.0rem;
+    color: #FFFAB7;
+    width: 50%;
+    text-align: center;
+
 }
 
 #whatwedo {
