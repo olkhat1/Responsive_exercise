@@ -4,17 +4,77 @@
     box-sizing: border-box;
 }
 
+html {
+
+    background-image: url(/resources/IMG/photo-1528715471579-d1bcf0ba5e83.avif);
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 18px;
+}
+
 body {
     
 }
 
 header {
+
     
 }
 
-nav {
-    /* Add your navigation styles here */
+h1 {
+    color: #ffffff;
+    font-family: 'Pacifico';
+    font-size: 2rem;
+    color: #FFFAB7;
+    text-decoration: underline;
 }
+
+
+
+/** Navigation**/
+
+
+.navcontainer {
+    display: flex;
+    background-color: #074173;
+    padding: 1rem;
+}
+
+nav .navigation {
+    font-family: 'Dancing Script';
+    color: #ffffff;
+    
+
+    
+    }
+
+    .clubname {
+        display: flex;
+        margin-right: auto;
+        margin-left: 1rem;
+    
+    }
+
+    
+
+
+.navigation ul {
+    display: flex;
+    font-size: 2rem;
+    list-style-type: none;
+    gap: 2rem;
+    margin-right: 1rem;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+
+}
+
+ul li:hover {
+    color: #FFFAB7;
+
+}
+
+
 
 main {
 
