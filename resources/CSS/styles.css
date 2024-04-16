@@ -114,6 +114,8 @@ main {
 
 #whatwedo {
 background-color: rgba(42.4%, 1.2%, 27.1%, 0.3);
+
+padding-bottom: 2rem;
 }
 
 
@@ -166,13 +168,42 @@ background-color: rgba(42.4%, 1.2%, 27.1%, 0.3);
     height: 100%;
 }
 
+
+
+/** Quotes **/ 
+
+
+
 #quotes {
-    /* Add styles for the quotes section */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Dancing Script';
+    font-size: 2rem;
+    background-color: rgba(12%, 12%, 12%, 0.5);
+    color: #FFFAB7;
+    padding: 2rem;
+    border-top: 1px solid #FFFAB7;
 }
 
-.textcontainer .text {
-    /* Add styles for the quote text */
+.textcontainer {
+    display: flex;
+    width: 33%;
+    height: auto;
 }
+
+.textcontainer img {
+    width: 100%;
+    margin-left: 10%;
+
+
+}
+
+
+
+
+
+
 
 #signup {
     /* Add styles for the sign up section */
