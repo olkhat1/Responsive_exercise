@@ -115,7 +115,7 @@ main {
 #whatwedo {
 background-color: rgba(42.4%, 1.2%, 27.1%, 0.3);
 
-padding-bottom: 2rem;
+padding-bottom: 5rem;
 }
 
 
@@ -178,23 +178,24 @@ padding-bottom: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
     font-family: 'Dancing Script';
     font-size: 2rem;
     background-color: rgba(12%, 12%, 12%, 0.5);
     color: #FFFAB7;
-    padding: 2rem;
+    padding: 5rem;
     border-top: 1px solid #FFFAB7;
 }
 
 .textcontainer {
     display: flex;
-    width: 33%;
+    width: 500px;
     height: auto;
 }
 
 .textcontainer img {
     width: 100%;
-    margin-left: 10%;
 
 
 }
@@ -206,27 +207,64 @@ padding-bottom: 2rem;
 
 
 #signup {
-    /* Add styles for the sign up section */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-family: 'Lobster';
+    padding: 5rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    border-top: 1px solid #FFFAB7;
+    color: #FFFFFF;
+    background-color: rgba(69, 63, 120, 0.8);
 }
 
-.maininfo {
-    /* Add styles for the main information */
+.maininfocontainer {
+    width: 500px;
 }
 
-.signup {
-    /* Add styles for the sign up form */
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7%;
+    border: 1px solid #FFFAB7;
+    border-radius: 15px;
+
 }
+
+#button:hover {
+
+    background-color: #FFFFFF;
+    color: rgba(69, 63, 120, 1.0);
+}
+
 
 footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    padding: 20px;
+    background-color: #704264;
+    color: #FFFFFF;
+    border-top: 1px solid #FFFAB7;
+
    
 }
 
 .mainfooter {
-    /* Add styles for the main footer */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    
+    
 }
 
 .content {
-    /* Add styles for the footer content */
+    display: flex;
 }
 
 .footertext {
